@@ -1,0 +1,61 @@
+html,
+body {
+   
+    background-color: white ;
+    background-size: fit-screen;
+    background-repeat: no-repeat ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: georgia, Arial, Helvetica, sans-serif;
+       
+}
+
+.center_element {
+    position: absolute;
+    left: 50%;
+    margin-left: -110px !important;  /* 50% of your logo width */
+    display: block;
+    
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #050505;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  .navbar {
+    position: relative;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.maintext {
+    padding: 20px 30px;
+}
